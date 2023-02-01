@@ -1,7 +1,8 @@
-import Product from './Product'
+import Product from './Categories'
 import Slider from "react-slick";
 import React, { useState } from "react";
 import ReactFlagsSelect from "react-flags-select";
+import Categories from './Categories';
 
 export default function Hero() {
   const [selected, setSelected] = useState('TR');
@@ -61,7 +62,7 @@ export default function Hero() {
               <button className=' hover:bg-brandColor hover:text-yellow-400  text-sm text-primary-brandColor font-semibold flex justify-center mt-3 text-center bg-yellow-400  w-80 h-11 rounded-md items-center'>Telefon numarası ile devam et</button>
           </div>
         </div>
-      <Product/>
+      <Categories/>
     </div>
   )
 }

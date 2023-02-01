@@ -2,6 +2,7 @@ import React,{useState} from 'react'
 import hamburger from '../assets/Hamburger.mp4'
 import Slider from "react-slick";
 import ReactFlagsSelect from "react-flags-select";
+import YemekCategory from './Category';
 
 
 export default function Getiryemekhero() {
@@ -27,7 +28,8 @@ export default function Getiryemekhero() {
     cssEase: "linear"
   };
   return (
-    <div className='relative'>
+    <>
+<div className='relative'>
        <Slider
         {...settings}>
           <div className=''>
@@ -52,5 +54,7 @@ export default function Getiryemekhero() {
           </div>
         </div>
     </div>
+    <YemekCategory/>
+    </>
   )
 }

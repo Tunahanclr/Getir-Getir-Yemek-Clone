@@ -3,7 +3,7 @@ import './App.css';
 import Layout from './layout/Layout';
 import Getiryemekhero from './pages/Getiryemekhero';
 import Hero from './components/Hero';
-import Product from './components/Product';
+import Categories from './components/Categories';
 
 function App() {
   return (
