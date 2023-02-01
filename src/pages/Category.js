@@ -48,8 +48,6 @@ function Product() {
       </Slider>
 
       </div>
-   
-    
   </div>
   )
 }
