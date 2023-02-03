@@ -3,6 +3,7 @@ import Slider from "react-slick";
 import React, { useState } from "react";
 import ReactFlagsSelect from "react-flags-select";
 import Categories from './Categories';
+import Campaigns from './Campaigns';
 
 export default function Hero() {
   const [selected, setSelected] = useState('TR');
@@ -63,6 +64,7 @@ export default function Hero() {
           </div>
         </div>
       <Categories/>
+      <Campaigns/>
     </div>
   )
 }

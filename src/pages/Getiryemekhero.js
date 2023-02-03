@@ -3,6 +3,7 @@ import hamburger from '../assets/Hamburger.mp4'
 import Slider from "react-slick";
 import ReactFlagsSelect from "react-flags-select";
 import YemekCategory from './Category';
+import Feature from './Feature';
 
 
 export default function Getiryemekhero() {
@@ -55,6 +56,7 @@ export default function Getiryemekhero() {
         </div>
     </div>
     <YemekCategory/>
+    <Feature/>
     </>
   )
 }

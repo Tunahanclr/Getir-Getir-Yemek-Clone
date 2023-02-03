@@ -9,7 +9,7 @@ import {AiOutlineArrowLeft} from 'react-icons/ai'
 function NextBtn(props) {
   const {className,style,onClick}=props;
   return (
-    <button className={`${className} !text-primary-brandColor`} style={style} onClick={onClick }><AiOutlineArrowRight size={22}/></button>
+    <button className={`${className} !text-primary-brandColor mb-56`} style={style} onClick={onClick }><AiOutlineArrowRight size={22}/></button>
   )
 }
 function PrevBtn({ className, style, onClick }) {
@@ -33,14 +33,14 @@ function Product() {
       infinite: true,
       speed: 500,
       slidesToShow:8,
-      slidesToScroll: 2,
+      slidesToScroll: 2 ,
       nextArrow:<NextBtn/>,
       prevBtn: <PrevBtn/>,
   };
 
   return (
     
-    <div className='container bg-white mt-5'>
+    <div className='container  mt-5'>
     <h2 className='font-semibold text-sm'>Mutfaklar</h2>
       <div className='mt-4'>
       <Slider {...settings}>
