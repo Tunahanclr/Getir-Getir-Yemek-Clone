@@ -1,5 +1,7 @@
 Hazır link: ÇOK YAKINDA!
 # Getting Started with Create React App
+ 
+ BİREBİR AYNISI OLMADI AMA İDARE EDER
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
