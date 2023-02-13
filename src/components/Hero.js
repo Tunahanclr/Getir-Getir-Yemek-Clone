@@ -4,6 +4,8 @@ import React, { useState } from "react";
 import ReactFlagsSelect from "react-flags-select";
 import Categories from './Categories';
 import Campaigns from './Campaigns';
+import Feature from './Feature';
+import Footer from './Footer';
 
 export default function Hero() {
   const [selected, setSelected] = useState('TR');
@@ -25,8 +27,8 @@ export default function Hero() {
     slidesToScroll: 1,
     autoplay: true,
     speed: 500,
-    autoplaySpeed: 3500,
-    cssEase: "linear"
+    autoplaySpeed: 3000,
+    cssEase: ""
   };
   return (
     <div className='relative before:bg-gradient-to-r before:from-brandColor before:to-transparent before:absolute  before:inset-0  before:h-[500px] before:z-10'>
@@ -65,6 +67,8 @@ export default function Hero() {
         </div>
       <Categories/>
       <Campaigns/>
+      <Feature/>
+      <Footer/> 
     </div>
   )
 }
