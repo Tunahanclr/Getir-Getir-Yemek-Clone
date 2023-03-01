@@ -3,7 +3,7 @@ import Footer from './Footer'
 
 function Feature() {
   return (
-    <div className='container mx-auto  mt-20    '>
+    <div className='container mx-auto flex  mt-20    '>
     <div className='flex items-center flex-wrap justify-center gap-10'>
         <div className='w-96 h-80 flex flex-col justify-center items-center text-center bg-white rounded-lg'>
             <img src="https://getir.com/_next/static/images/intro-in-minutes-a7a9238a73013642a6597c4db06653c1.svg" alt="" />

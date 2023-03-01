@@ -8,7 +8,7 @@ export default function Layout() {
   return (
     <>  
     <div className='bg-primary-brandColor'>
-        <div className='h-11 flex container mx-auto items-center justify-between'>
+        <div className='md:h-11  flex container mx-auto items-center justify-between'>
             <div className='flex space-x-8'>
                 <div>
                 <NavLink  to={""}>
@@ -21,7 +21,7 @@ export default function Layout() {
                 </NavLink>
             </div>
                 </div>
-                <div className='text-white flex items-center gap-12  text-lg'>
+                <div className='text-white md:flex  hidden  items-center gap-12  text-lg'>
                     <a href="" className=' flex items-center font-semibold  gap-2 opacity-70 hover:opacity-100 duration-75'><BiGlobe className=''/>Türkçe(TR)</a>
                     <a href="" className=' flex items-center font-semibold gap-2  opacity-70 hover:opacity-100 duration-75'><BiUser className=''/>Giriş Yap</a>
                     <a href=""  className=' flex items-center font-semibold gap-2  opacity-70 hover:opacity-100 duration-75'><AiOutlineUserAdd className=''/>Kayıt Ol</a>

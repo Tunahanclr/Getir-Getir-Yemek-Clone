@@ -4,6 +4,8 @@ import Slider from "react-slick";
 import ReactFlagsSelect from "react-flags-select";
 import YemekCategory from './Category';
 import Feature from './Feature';
+import İnfo from './İnfo'
+import Footer from './Footer';
 
 
 export default function Getiryemekhero() {
@@ -57,6 +59,8 @@ export default function Getiryemekhero() {
     </div>
     <YemekCategory/>
     <Feature/>
+    <İnfo/>
+    <Footer/>
     </>
   )
 }

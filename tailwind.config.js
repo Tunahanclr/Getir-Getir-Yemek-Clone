@@ -19,6 +19,7 @@ module.exports = {
         'secondary-brandColor':'#7849f7',
         "bar-color":'#B570FA',
         "number-color":'#E0E0E0',
+        "color-gray-storm":'#697488',
       }
       // backgroundColor:[]
     },
