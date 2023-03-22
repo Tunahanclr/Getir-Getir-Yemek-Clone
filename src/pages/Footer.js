@@ -1,51 +1,130 @@
-import React from 'react'
+import { FaFacebook, FaTwitter, FaInstagram } from 'react-icons/fa'
+import {FiGlobe} from 'react-icons/fi';
 
 function Footer() {
-  return (
-    <div className='bg-white mt-20 h-64'>
-        <div className='container mx-auto gap-28 flex'>
-            <div className='flex gap-4  flex-col'>
-                <h2 className='text-primary-brandColor text-xl'>Getir'i indirin!</h2>
-                <a href="https://itunes.apple.com/app/id995280265" target={'_blank'}><img src="https://getir.com/_next/static/images/appstore-tr-141ed939fceebdcee96af608fa293b31.svg"  alt="" /></a>
-                <a href="https://play.google.com/store/apps/details?id=com.getir&pli=1"   target={'_blank'}><img src="https://getir.com/_next/static/images/googleplay-tr-6b0c941b7d1a65d781fb4b644498be75.svg" alt="" /></a>
-                <a href="https://appgallery.huawei.com/#/app/C100954039"  target={'_blank'}><img src="https://getir.com/_next/static/images/huawei-appgallery-tr-4b890fa3167bc62f9069edaf45aa7f30.svg" alt="" /></a>
-            </div>
-            <div>
-            <div className='flex gap-4  flex-col'>
-            <h2 className='text-primary-brandColor text-xl'>Getir'i keşfedin</h2>
-                <a href="" className='text-sm font-light opacity-90'>Hakkımızda</a>
-                <a href="" className='text-sm font-light opacity-90'>Kariyer</a>
-                <a href="" className='text-sm font-light opacity-90'>Teknoloji Kariyeri</a>
-                <a href="" className='text-sm font-light opacity-90'>İletişim</a>
-                <a href="" className='text-sm font-light opacity-90'>Sosyal Sorumluluk Projeleri</a>
-            </div>
-           
-            </div>
-            <div className='flex gap-4  flex-col'>
-            <h2 className='text-primary-brandColor text-xl'>Yardıma mı ihtiyacınız var?</h2>
-                <a href="" className='text-sm font-light opacity-90'>Sıkça Sorulan Sorular</a>
-                <a href="" className='text-sm font-light opacity-90'>Kişisel Verilerin Korunması</a>
-                <a href="" className='text-sm font-light opacity-90'>Gizlilik Politikası</a>
-                <a href="" className='text-sm font-light opacity-90'>Kullanım Koşulları</a>
-                <a href="" className='text-sm font-light opacity-90'>Çerez Politikası</a>
-            </div>
-            <div className='flex gap-4  flex-col'>
-            <h2 className='text-primary-brandColor text-xl'>İş Ortağımız Olun
-</h2>
-                <a href="" className='text-sm font-light opacity-90'>Bayimiz Olun
-</a>
-                <a href="" className='text-sm font-light opacity-90'>Deponuzu Kiralayın
-</a>
-                <a href="" className='text-sm font-light opacity-90'> GetirYemek Restoranı Olun
-</a>
-                <a href="" className='text-sm font-light opacity-90'>GetirÇarşı İşletmesi Olun
-</a>
-                <a href="" className='text-sm font-light opacity-90'>Zincir Restoranlar
-</a>
-            </div>
-        </div>
-    </div>
-  )
+	return (
+		<div className="bg-white py-4 mt-8 sm:pt-10 sm:pb-6">
+			<div className="container mx-auto grid gap-y-5">
+				<div className="grid sm:grid-cols-2 lg:grid-cols-4 gap-y-4">
+					<nav>
+						<h3 className="text-lg text-purple-700 mb-4">
+							Getir'i indirin!
+						</h3>
+						<ul className="grid grid-cols-2 sm:grid-cols-1 gap-y-3">
+							<li>
+								<a href="#">
+									<img
+										src="https://getir.com/_next/static/images/appstore-tr-141ed939fceebdcee96af608fa293b31.svg"
+										alt=""/>
+								</a>
+							</li>
+							<li>
+								<a href="#">
+									<img
+										src="https://getir.com/_next/static/images/googleplay-tr-6b0c941b7d1a65d781fb4b644498be75.svg"
+										alt=""/>
+								</a>
+							</li>
+							<li>
+								<a href="#">
+									<img
+										src="https://getir.com/_next/static/images/huawei-appgallery-tr-4b890fa3167bc62f9069edaf45aa7f30.svg"
+										alt=""/>
+								</a>
+							</li>
+						</ul>
+					</nav>
+					<nav>
+						<h3 className="text-lg text-purple-700 mb-4">
+							Getir'i keşfedin
+						</h3>
+						<ul className="grid gap-y-3 text-sm">
+							<li>
+								<a href="#" className="">Hakkımızda</a>
+							</li>
+							<li>
+								<a href="#" className="">Kariyer</a>
+							</li>
+							<li>
+								<a href="#" className="">İletişim</a>
+							</li>
+							<li>
+								<a href="#" className="">COVID-19 Duyuru</a>
+							</li>
+							<li>
+								<a href="#" className="">Sosyal Sorumluluk Projeleri</a>
+							</li>
+						</ul>
+					</nav>
+					<nav>
+						<h3 className="text-lg text-purple-700 mb-4">
+							Yardıma mı ihtiyacınız var?
+						</h3>
+						<ul className="grid gap-y-3 text-sm">
+							<li>
+								<a href="#" className="">Sıkça Sorulan Sorular</a>
+							</li>
+							<li>
+								<a href="#" className="">Kişisel Verilerin Korunması</a>
+							</li>
+							<li>
+								<a href="#" className="">Gizlilik Politikası</a>
+							</li>
+							<li>
+								<a href="#" className="">Kullanım Koşulları</a>
+							</li>
+							<li>
+								<a href="#" className="">Çerez Politikası</a>
+							</li>
+						</ul>
+					</nav>
+					<nav>
+						<h3 className="text-lg text-purple-700 mb-4">
+							İş Ortağımız Olun
+						</h3>
+						<ul className="grid gap-y-3 text-sm">
+							<li>
+								<a href="#" className="">Bayimiz Olun</a>
+							</li>
+							<li>
+								<a href="#" className="">Deponuzu Kiralayın</a>
+							</li>
+							<li>
+								<a href="#" className="">GetirYemek Restoranı Olun</a>
+							</li>
+							<li>
+								<a href="#" className="">GetirÇarşı İşletmesi Olun</a>
+							</li>
+						</ul>
+					</nav>
+				</div>
+				<div className="h-[1px] bg-gray-100"></div>
+				<div className="flex justify-between flex-col items-center gap-y-3 sm:gap-y-0 sm:flex-row text-sm pt-1 sm:pt-3">
+					<div className="flex gap-x-4 text-gray-700">
+						&copy; 2023 Getir
+						<div>
+							<a href="#" className="text-purple-800 hover:underline">Bilgi Toplumu Hizmetleri</a>
+						</div>
+					</div>
+					<nav className="flex gap-x-2 items-center">
+						<a href="#" className="transition-colors w-8 h-8 flex items-center justify-center rounded-lg text-gray-600 hover:bg-purple-50 hover:text-purple-700">
+							<FaFacebook size={20} />
+						</a>
+						<a href="#" className="transition-colors w-8 h-8 flex items-center justify-center rounded-lg text-gray-600 hover:bg-purple-50 hover:text-purple-700">
+							<FaTwitter size={20} />
+						</a>
+						<a href="#" className="transition-colors w-8 h-8 flex items-center justify-center rounded-lg text-gray-600 hover:bg-purple-50 hover:text-purple-700">
+							<FaInstagram size={20} />
+						</a>
+						<a href="#" className="transition-colors h-8 flex items-center gap-x-2 border border-gray-100 rounded-lg text-sm text-gray-600 px-3 hover:bg-purple-50 hover:text-purple-700">
+							<FiGlobe size={18} />
+							Türkçe (TR)
+						</a>
+					</nav>
+				</div>
+			</div>
+		</div>
+	)
 }
 
 export default Footer

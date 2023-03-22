@@ -8,9 +8,7 @@ import {AiOutlineArrowLeft} from 'react-icons/ai'
 
 function NextBtn(props) {
   const {className,style,onClick}=props;
-  return (
-    <button className={`${className} !text-primary-brandColor mb-56`} style={style} onClick={onClick }><AiOutlineArrowRight size={22}/></button>
-  )
+  
 }
 function PrevBtn({ className, style, onClick }) {
   return (

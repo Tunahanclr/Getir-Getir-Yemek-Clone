@@ -30,6 +30,9 @@
 .width{
   width: 605px;
 }
+.width2{
+  width: 300px;
+}
 
 @keyframes App-logo-spin {
   from {
