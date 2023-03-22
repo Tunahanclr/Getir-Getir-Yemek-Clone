@@ -1,1 +1,2 @@
-Deploy:Yakında!
+demo:https://getir-getir-yemek-clone.vercel.app/
+
